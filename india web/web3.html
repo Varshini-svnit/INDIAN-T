@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>
+            tourism website
+        </title>
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <header>
+            <div id ="menu-bar" class="fas fa-bars"></div>
+            <a href="#"  class="logo"><span>our</span> India</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#booking">booking</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#learn more">learn more</a>
+
+        </nav>  
+        
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn" onclick="showlogin()"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type=" search" id="search-bar" placeholder="search here.......">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+        </header>
+<div>
+    <div class="login-form-container" id="login-container">
+        <i class="fas fa-times" id="form-close"  onclick=removelogin()></i>
+    <form action="">
+        <h3>login</h3>
+        <p><input type="email" class="box" id="email" placeholder="enter your email"></p>
+        <p><input type="password"  id="passward" class="box" placeholder="enter your passward"></p>
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password?<a href="#">Click here</a></p>
+    <p>Don't have an Account?<a href="#">  register now</a></p>
+</form></div>
+
+<!--home section starts-->
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Heaven on earth</h3>
+        <p>"let's start our adventure ,discover new places,feel the essence"</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="C:\Users\DELL\Downloads\images\vid-1.mp4"></span>
+        <span class="vid-btn" data-src="C:\Users\DELL\Downloads\images\vid-2.mp4"></span>
+        <span class="vid-btn" data-src="C:\Users\DELL\Downloads\images\vid-3.mp4"></span>
+        <span class="vid-btn" data-src="C:\Users\DELL\Downloads\images\vid-4.mp4"></span>
+        <span class="vid-btn" data-src="C:\Users\DELL\Downloads\images\vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="C:\Users\DELL\Downloads\images\vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--custum js file link-->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+        
